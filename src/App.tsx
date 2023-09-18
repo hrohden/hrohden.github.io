@@ -4,9 +4,9 @@ function App() {
       <section className="bg-gray-900 p-6">
         <div className="max-w-7xl flex mx-auto justify-evenly">
           <div className="flex justify-end flex-col gap-6">
-            <h1 className="text-white">Hello! I'm Henrique</h1>
-            <p className="text-white">(it's pronounced /ẽ'ʁiki/)</p>
-            <h2 className="text-white">I'm a Fullstack Developer.</h2>
+            <h1 className="text-white text-6xl font-bold">Hello! I'm Henrique</h1>
+            <p className="text-white text-2xl">(it's pronounced /ẽ'ʁiki/)</p>
+            <h2 className="text-white text-4xl">I'm a Full Stack Developer.</h2>
           </div>
           <div>
             <img src="https://placehold.co/200" alt="" />
