@@ -1,33 +1,11 @@
+import Navbar from "./Navbar";
 import WorkExperienceComponent from "./WorkExperienceComponent";
 import { workExperienceItems } from "./workExperienceItems";
 
 function App() {
   return (
     <main className="container mx-auto xl:w-3/5">
-      <nav className="flex justify-center py-6 border-b-2 border-black">
-        <ul className="list-none flex gap-16">
-          <li className="text-center">
-            <a href="#" className="font-semibold text-sm">
-              About
-            </a>
-          </li>
-          <li className="text-center">
-            <a href="#" className="font-semibold text-sm">
-              Work experience
-            </a>
-          </li>
-          <li className="text-center">
-            <a href="#" className="font-semibold text-sm">
-              Contact
-            </a>
-          </li>
-          <li className="text-center">
-            <a href="#" className="font-semibold text-sm">
-              Resumé
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <Navbar />
       <section className="py-16">
         <div className="flex flex-col gap-4">
           <p className="text-base font-semibold leading-7">
