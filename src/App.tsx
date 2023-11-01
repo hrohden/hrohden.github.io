@@ -66,7 +66,7 @@ function App() {
           ))}
         </div>
       </section>
-      <section className="py-12 bg-slate-400">
+      <section className="py-12">
         <h2 className="text-4xl font-semibold tracking-tight">Contact</h2>
       </section>
     </main>
