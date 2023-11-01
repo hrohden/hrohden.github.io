@@ -1,4 +1,4 @@
-import { WorkExperience } from "./WorkExperience";
+import { WorkExperience } from "../types/WorkExperience";
 
 const WorkExperienceComponent = ({
   workExperience,

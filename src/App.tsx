@@ -1,8 +1,8 @@
-import About from "./About";
-import Contact from "./Contact";
-import Intro from "./Intro";
-import Navbar from "./Navbar";
-import WorkExperienceSection from "./WorkExperienceSection";
+import Navbar from "./components/Navbar";
+import About from "./sections/About";
+import Contact from "./sections/Contact";
+import Intro from "./sections/Intro";
+import WorkExperienceSection from "./sections/WorkExperienceSection";
 
 function App() {
   return (

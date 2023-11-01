@@ -1,5 +1,5 @@
-import WorkExperienceComponent from "./WorkExperienceComponent";
-import { workExperienceItems } from "./workExperienceItems";
+import WorkExperienceComponent from "../components/WorkExperienceComponent";
+import { workExperienceItems } from "../data/workExperienceItems";
 
 const WorkExperienceSection = () => {
   return (
