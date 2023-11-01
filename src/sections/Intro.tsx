@@ -13,6 +13,26 @@ const Intro = () => {
         <h2 className="text-2xl font-thin tracking-tighter">
           Welcome to my portfolio! 🚀
         </h2>
+        <ul>
+          <li>
+            <a href="https://www.github.com/hrohden" target="_blank">
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/henriquerohden"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com/henriquerohden" target="_blank">
+              Twitter
+            </a>
+          </li>
+        </ul>
       </div>
       <div className="w-1/4">
         <img src={me} className="object-cover rounded-lg rotate-6" />
