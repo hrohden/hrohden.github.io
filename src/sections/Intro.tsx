@@ -16,21 +16,23 @@ const Intro = () => {
         <h2 className="text-2xl font-thin tracking-tighter">
           Welcome to my portfolio! 🚀
         </h2>
-        <SocialMediaButton
-          text="GitHub"
-          icon={<FaGithub />}
-          url={"https://www.github.com/hrohden"}
-        />
-        <SocialMediaButton
-          url={"https://www.linkedin.com/in/henriquerohden"}
-          icon={<FaLinkedin />}
-          text="LinkedIn"
-        />
-        <SocialMediaButton
-          url={"https://www.twitter.com/henriquerohden"}
-          icon={<RiTwitterXFill />}
-          text="Twitter"
-        />
+        <div className="flex gap-2">
+          <SocialMediaButton
+            url={"https://www.linkedin.com/in/henriquerohden"}
+            icon={<FaLinkedin />}
+            text="LinkedIn"
+          />
+          <SocialMediaButton
+            text="GitHub"
+            icon={<FaGithub />}
+            url={"https://www.github.com/hrohden"}
+          />
+          <SocialMediaButton
+            url={"https://www.twitter.com/henriquerohden"}
+            icon={<RiTwitterXFill />}
+            text="Twitter"
+          />
+        </div>
       </div>
       <div className="w-1/4">
         <img src={me} className="object-cover rounded-lg rotate-6" />

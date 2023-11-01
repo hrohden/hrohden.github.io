@@ -5,12 +5,12 @@ type Props = {
 };
 const SocialMediaButton = (props: Props) => {
   return (
-    <div>
-      <a href={props.url} target="_blank">
-        {props.icon}
-        {props.text}
-      </a>
-    </div>
+    <a href={props.url} target="_blank">
+      <span className="border border-slate-200 px-3 py-2 bg-slate-100 rounded-md flex flex-row gap-2 items-center">
+        <span className="text-slate-400">{props.icon}</span>
+        <span className="text-sm">{props.text}</span>
+      </span>
+    </a>
   );
 };
 export default SocialMediaButton;
