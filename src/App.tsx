@@ -57,6 +57,25 @@ function App() {
         <h2 className="text-4xl font-semibold tracking-tight">
           Work experience
         </h2>
+        <div>
+          <h3>Full Stack Engineer, Acorns (July 2022 - September 2023)</h3>
+          <ul>
+            <li>
+              Developed comprehensive admin reports to analyze and track the
+              performance of financial products, providing valuable insights to
+              stakeholders and enabling data-driven decision-making for
+              strategic planning, risk assessment, and business growth
+              initiatives.
+            </li>
+            <li>
+              Implemented highly efficient GitHub Action configurations to
+              streamline and automate the version release process for multiple
+              applications, resulting in considerable time and effort savings
+              for the team.
+            </li>
+            <li>Technologies employed: AWS, SQL, Databricks, Java, React</li>
+          </ul>
+        </div>
       </section>
       <section className="py-12 bg-slate-400">
         <h2 className="text-4xl font-semibold tracking-tight">Contact</h2>
