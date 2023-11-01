@@ -11,4 +11,14 @@ export const workExperienceItems: WorkExperience[] = [
     ],
     technologies: ["AWS", "SQL", "Databricks", "Java", "React"],
   },
+  {
+    company: "Brigit",
+    title: "Full Stack Engineer",
+    period: "January 2022 - July 2022",
+    description: [
+      "Provided comprehensive backend application support and maintenance using Java, ensuring critical systems' smooth and uninterrupted operation.",
+      "Developed and maintained mobile applications using React Native.",
+    ],
+    technologies: ["Java", "Spring Boot", "Spring Framework", "React", "SQL"],
+  },
 ];
