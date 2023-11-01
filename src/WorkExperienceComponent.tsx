@@ -19,7 +19,11 @@ const WorkExperienceComponent = ({
           <WorkExperienceDescription>{description}</WorkExperienceDescription>
         ))}
       </ul>
-      <p>Technologies employed: AWS, SQL, Databricks, Java, React</p>
+      <ul>
+        {workExperience.technologies.map((tech) => (
+          <li>{tech}</li>
+        ))}
+      </ul>
     </div>
   );
 };
