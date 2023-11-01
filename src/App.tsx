@@ -33,16 +33,12 @@ function App() {
           <p className="text-base font-semibold leading-7">
             Full stack developer
           </p>
-          <p>
-            <h1 className="text-3xl font-extrabold tracking-[-0.04em] sm:text-5xl sm:leading-[3.5rem]">
-              Hello! I'm Henrique
-            </h1>
-          </p>
-          <p>
-            <h2 className="text-2xl font-thin tracking-tighter">
-              Welcome to my portfolio! 🚀
-            </h2>
-          </p>
+          <h1 className="text-3xl font-extrabold tracking-[-0.04em] sm:text-5xl sm:leading-[3.5rem]">
+            Hello! I'm Henrique
+          </h1>
+          <h2 className="text-2xl font-thin tracking-tighter">
+            Welcome to my portfolio! 🚀
+          </h2>
         </div>
       </section>
       <section className="py-12 flex flex-col gap-6">
@@ -62,7 +58,7 @@ function App() {
         </h2>
         <div className="flex flex-col gap-6">
           {workExperienceItems.map((work) => (
-            <WorkExperienceComponent workExperience={work} />
+            <WorkExperienceComponent workExperience={work} key={work.company} />
           ))}
         </div>
       </section>
