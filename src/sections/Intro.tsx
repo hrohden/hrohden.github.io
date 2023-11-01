@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 import me from "../assets/me.jpg";
+import SocialMediaButton from "../components/SocialMediaButton";
 
 const Intro = () => {
   return (
@@ -15,29 +16,21 @@ const Intro = () => {
         <h2 className="text-2xl font-thin tracking-tighter">
           Welcome to my portfolio! 🚀
         </h2>
-        <ul>
-          <li>
-            <a href="https://www.github.com/hrohden" target="_blank">
-              <FaGithub />
-              GitHub
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/henriquerohden"
-              target="_blank"
-            >
-              <FaLinkedin />
-              LinkedIn
-            </a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com/henriquerohden" target="_blank">
-              <RiTwitterXFill />
-              Twitter
-            </a>
-          </li>
-        </ul>
+        <SocialMediaButton
+          text="GitHub"
+          icon={<FaGithub />}
+          url={"https://www.github.com/hrohden"}
+        />
+        <SocialMediaButton
+          url={"https://www.linkedin.com/in/henriquerohden"}
+          icon={<FaLinkedin />}
+          text="LinkedIn"
+        />
+        <SocialMediaButton
+          url={"https://www.twitter.com/henriquerohden"}
+          icon={<RiTwitterXFill />}
+          text="Twitter"
+        />
       </div>
       <div className="w-1/4">
         <img src={me} className="object-cover rounded-lg rotate-6" />
