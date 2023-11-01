@@ -12,6 +12,9 @@ const WorkExperienceComponent = ({
   return (
     <div>
       <p>{workExperience.company}</p>
+      {workExperience.companyDescription && (
+        <p>{workExperience.companyDescription}</p>
+      )}
       <p>{workExperience.title}</p>
       <p>{workExperience.period}</p>
       <ul>

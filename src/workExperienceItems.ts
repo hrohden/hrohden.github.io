@@ -23,6 +23,8 @@ export const workExperienceItems: WorkExperience[] = [
   },
   {
     company: "Cooperforte Ltda.",
+    companyDescription:
+      "Cooperforte is a credit union company offering financial solutions exclusively for public and governmental employees.",
     title: "Senior Java developer",
     period: "July 2021 - November 2021",
     description: [
@@ -32,6 +34,8 @@ export const workExperienceItems: WorkExperience[] = [
   },
   {
     company: "Stefanini",
+    companyDescription:
+      "Stefanini is a private Brazilian multinational service and software provider for data processing and consulting, based in São Paulo.",
     title: "Senior developer",
     period: "August 2020 - July 2021",
     description: [
@@ -41,6 +45,8 @@ export const workExperienceItems: WorkExperience[] = [
   },
   {
     company: "Basis Tecnologia",
+    companyDescription:
+      "Basis (basis.com.br) is a renowned IT consulting company that exclusively focuses on developing software solutions for governmental agencies.",
     title: "Senior Java developer",
     period: "December 2019 - August 2020",
     description: [
@@ -50,6 +56,8 @@ export const workExperienceItems: WorkExperience[] = [
   },
   {
     company: "Banco do Brasil",
+    companyDescription:
+      "Banco do Brasil is Latin America'’'s largest commercial bank by assets. Headquartered in Brasília is one of the largest Brazilian companies.",
     title: "Software Developer",
     period: "February 2011 - September 2019",
     description: [
