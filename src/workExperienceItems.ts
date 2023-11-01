@@ -57,7 +57,7 @@ export const workExperienceItems: WorkExperience[] = [
   {
     company: "Banco do Brasil",
     companyDescription:
-      "Banco do Brasil is Latin America'’'s largest commercial bank by assets. Headquartered in Brasília is one of the largest Brazilian companies.",
+      "Banco do Brasil is Latin America's largest commercial bank by assets. Headquartered in Brasília is one of the largest Brazilian companies.",
     title: "Software Developer",
     period: "February 2011 - September 2019",
     description: [
