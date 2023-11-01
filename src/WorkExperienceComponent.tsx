@@ -1,0 +1,26 @@
+import { WorkExperience } from "./WorkExperience";
+
+const WorkExperienceDescription = ({ ...props }) => {
+  return <li>{props.children}</li>;
+};
+
+const WorkExperienceComponent = ({
+  workExperience,
+}: {
+  workExperience: WorkExperience;
+}) => {
+  return (
+    <div>
+      <p>{workExperience.company}</p>
+      <p>{workExperience.title}</p>
+      <p>{workExperience.period}</p>
+      <ul>
+        {workExperience.description.map((description) => (
+          <WorkExperienceDescription>{description}</WorkExperienceDescription>
+        ))}
+      </ul>
+      <p>Technologies employed: AWS, SQL, Databricks, Java, React</p>
+    </div>
+  );
+};
+export default WorkExperienceComponent;

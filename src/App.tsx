@@ -1,19 +1,7 @@
-import WorkExperience from "./WorkExperience";
-import WorkExperienceItem from "./WorkExperience.Item";
+import WorkExperienceComponent from "./WorkExperienceComponent";
+import { workExperienceItems } from "./workExperienceItems";
 
 function App() {
-  const workExperience = [
-    {
-      company: "Acorns",
-      title: "Full Stack Engineer",
-      period: "July 2022 - September 2023",
-      description: [
-        "Developed comprehensive admin reports to analyze and track the performance of financial products, providing valuable insights to stakeholders and enabling data-driven decision-making for strategic planning, risk assessment, and business growth initiatives.",
-        "Implemented highly efficient GitHub Action configurations to streamline and automate the version release process for multiple applications, resulting in considerable time and effort savings for the team.",
-      ],
-      technologies: ["AWS", "SQL", "Databricks", "Java", "React"],
-    },
-  ];
   return (
     <main className="container mx-auto">
       <nav className="flex justify-center py-6 border-b-2 border-slate-200">
@@ -73,16 +61,8 @@ function App() {
           Work experience
         </h2>
       </section>
-      {workExperience.map((work) => (
-        <WorkExperience
-          company={work.company}
-          period={work.period}
-          title={work.title}
-        >
-          {work.description.map((description) => (
-            <WorkExperienceItem>{description}</WorkExperienceItem>
-          ))}
-        </WorkExperience>
+      {workExperienceItems.map((work) => (
+        <WorkExperienceComponent workExperience={work} />
       ))}
       <section className="py-12 bg-slate-400">
         <h2 className="text-4xl font-semibold tracking-tight">Contact</h2>
