@@ -3,7 +3,7 @@ import { workExperienceItems } from "./workExperienceItems";
 
 function App() {
   return (
-    <main className="container mx-auto">
+    <main className="container mx-auto xl:w-3/5">
       <nav className="flex justify-center py-6 border-b-2 border-black">
         <ul className="list-none flex gap-16">
           <li className="text-center">
