@@ -8,7 +8,7 @@ import { IoMail } from "react-icons/io5";
 const Navbar = () => {
   return (
     <nav className="py-2 border-b-2 border-black">
-      <ul className="list-none flex gap-2 justify-between md:justify-evenly text-sm font-semibold">
+      <ul className="list-none flex tracking-tight gap-2 justify-between md:justify-evenly text-sm font-semibold">
         <li className="text-center">
           <a href="#" className="flex gap-1 items-center">
             <BsInfoCircleFill />
