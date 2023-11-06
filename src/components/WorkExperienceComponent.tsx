@@ -17,26 +17,26 @@ const WorkExperienceComponent = ({
           />
         </div>
         <div>
-          <p className="text-xs font-semibold uppercase md:text-sm">
+          <p className="text-xs font-semibold uppercase text-slate-700 md:text-sm">
             {workExperience.company}
           </p>
-          <p className="text-lg font-semibold md:text-xl">
+          <p className="text-lg font-semibold text-slate-700 md:text-xl">
             {workExperience.title}
           </p>
-          <p className="flex items-baseline gap-1 text-xs md:text-sm">
+          <p className="flex items-baseline gap-1 text-xs text-slate-700 md:text-sm">
             <AiOutlineCalendar />
             {workExperience.period}
           </p>
         </div>
       </div>
       {workExperience.companyDescription && (
-        <p className="text-xs italic md:text-sm">
+        <p className="text-xs italic text-slate-700 md:text-sm">
           {workExperience.companyDescription}
         </p>
       )}
       <ul className="ml-4 list-disc">
         {workExperience.description.map((description) => (
-          <li key={description} className="text-sm md:text-base">
+          <li key={description} className="text-sm text-slate-700 md:text-base">
             {description}
           </li>
         ))}
