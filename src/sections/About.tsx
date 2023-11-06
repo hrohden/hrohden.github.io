@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="py-8 flex flex-col gap-6">
+    <section className="py-6 flex flex-col gap-6">
       <h2 className="text-3xl font-semibold tracking-tight">About</h2>
       <p className="text-md">
         With expertise in both frontend and backend development, I have
