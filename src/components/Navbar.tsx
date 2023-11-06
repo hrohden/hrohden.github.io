@@ -1,27 +1,16 @@
 
 const Navbar = () => {
   return (
-    <nav className="border-b-2 border-black py-2">
-      <ul className="flex list-none gap-2 text-sm font-semibold tracking-tight">
-        <li className="text-center">
-          <a href="#" className="flex items-center gap-1">
-            About
-          </a>
+    <nav className="py-2">
+      <ul className="flex list-none justify-end gap-4">
+        <li>
+          <a href="#">About</a>
         </li>
-        <li className="text-center">
-          <a href="#" className="flex items-center gap-1">
-            Experience
-          </a>
+        <li>
+          <a href="#">Experience</a>
         </li>
-        <li className="text-center">
-          <a href="#" className="flex items-center gap-1">
-            Contact
-          </a>
-        </li>
-        <li className="text-center">
-          <a href="#" className="flex items-center gap-1">
-            Resumé PDF
-          </a>
+        <li>
+          <a href="#">Resumé</a>
         </li>
       </ul>
     </nav>
