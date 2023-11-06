@@ -20,7 +20,7 @@ const Intro = () => {
         </div>
       </div>
       <div>
-        <img src={me} className="w-full rotate-6 rounded-lg" />
+        <img src={me} className="w-full rounded-lg" />
       </div>
       <ul className="flex list-none gap-2">
         <li>
