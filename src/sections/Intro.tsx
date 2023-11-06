@@ -8,7 +8,7 @@ const Intro = () => {
     <section className="grid grid-cols-4 gap-2 py-8">
       <div className="col-span-3 flex flex-row items-center">
         <div className="flex w-3/4 flex-col gap-1">
-          <p className="text-base font-semibold leading-7 tracking-tight text-slate-700">
+          <p className="text-sm font-semibold uppercase tracking-tight text-sky-600">
             Full stack developer
           </p>
           <h1 className="text-2xl font-extrabold tracking-tighter text-slate-700 sm:text-5xl sm:leading-[3.5rem]">

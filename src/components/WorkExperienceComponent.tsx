@@ -17,13 +17,13 @@ const WorkExperienceComponent = ({
           />
         </div>
         <div>
-          <p className="text-xs font-semibold uppercase text-slate-700 md:text-sm">
+          <p className="text-xs font-semibold uppercase text-sky-600 md:text-sm">
             {workExperience.company}
           </p>
           <p className="text-lg font-semibold text-slate-700 md:text-xl">
             {workExperience.title}
           </p>
-          <p className="flex items-baseline gap-1 text-xs text-slate-700 md:text-sm">
+          <p className="flex items-baseline gap-1 text-xs text-slate-500 md:text-sm">
             <AiOutlineCalendar />
             {workExperience.period}
           </p>
@@ -34,7 +34,7 @@ const WorkExperienceComponent = ({
           {workExperience.companyDescription}
         </p>
       )}
-      <ul className="ml-4 list-disc">
+      <ul className="ml-4 flex list-disc flex-col gap-2">
         {workExperience.description.map((description) => (
           <li key={description} className="text-sm text-slate-700 md:text-base">
             {description}
