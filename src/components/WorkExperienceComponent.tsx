@@ -7,10 +7,8 @@ const WorkExperienceComponent = ({
 }) => {
   return (
     <div>
-      <p className="text-xl tracking-tight font-semibold">
-        {workExperience.title}
-      </p>
       <p className="tracking-tight">{workExperience.company}</p>
+      <p className="">{workExperience.title}</p>
       {workExperience.companyDescription && (
         <p className="text-sm tracking-tight">
           {workExperience.companyDescription}
