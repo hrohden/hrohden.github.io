@@ -3,7 +3,7 @@ import Section from "../components/Section";
 const About = () => {
   return (
     <Section title="About">
-      <p className="text-md">
+      <p className="text-sm">
         With expertise in both frontend and backend development, I have
         consistently leveraged my technical skills to create efficient, secure,
         and user-friendly applications. Equipped with strong corporate
