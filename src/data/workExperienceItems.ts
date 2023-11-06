@@ -9,6 +9,7 @@ export const workExperienceItems: WorkExperience[] = [
       "Developed comprehensive admin reports to analyze and track the performance of financial products, providing valuable insights to stakeholders and enabling data-driven decision-making for strategic planning, risk assessment, and business growth initiatives.",
       "Implemented highly efficient GitHub Action configurations to streamline and automate the version release process for multiple applications, resulting in considerable time and effort savings for the team.",
     ],
+    logo: "acorns.png",
     technologies: ["AWS", "SQL", "Databricks", "Java", "React"],
   },
   {
@@ -19,6 +20,7 @@ export const workExperienceItems: WorkExperience[] = [
       "Provided comprehensive backend application support and maintenance using Java, ensuring critical systems' smooth and uninterrupted operation.",
       "Developed and maintained mobile applications using React Native.",
     ],
+    logo: "brigit.png",
     technologies: ["Java", "Spring Boot", "Spring Framework", "React", "SQL"],
   },
   {
@@ -30,6 +32,7 @@ export const workExperienceItems: WorkExperience[] = [
     description: [
       "Developed and maintained web applications using React, Java, Spring, and SQL Server",
     ],
+    logo: "cooperforte.png",
     technologies: ["Java", "Spring Framework", "React", "SQL", "AWS"],
   },
   {
@@ -41,6 +44,7 @@ export const workExperienceItems: WorkExperience[] = [
     description: [
       "Developed and maintained web applications for banking corporations, using front-end technologies (Angular, Grunt, Jasmine, Karma).",
     ],
+    logo: "stefanini.png",
     technologies: ["Java", "Angular", "SQL"],
   },
   {
@@ -52,6 +56,7 @@ export const workExperienceItems: WorkExperience[] = [
     description: [
       "Developed and maintained web applications for federal environmental agencies, using Java-based stack (Spring, JPA) as well as CI/CD tools (Jenkins), OpenShift, and Kubernetes",
     ],
+    logo: "basis.png",
     technologies: ["Java", "Spring", "Jenkins", "Docker", "Angular", "SQL"],
   },
   {
@@ -64,6 +69,7 @@ export const workExperienceItems: WorkExperience[] = [
       "Successfully developed from scratch a high-quality official products website for employees' usage, making use of Java, JSP (Servlets), and frameworks like Spring MVC and JPA/Hibernate, resulting in +2,500 daily hits, one of the company's intranet most popular web applications",
       "Responsible for managing databases and developing internal performance reports of financial products, using HTML, CSS, JavaScript, and jQuery, as well as MySQL, SQL Server, and Postgres",
     ],
+    logo: "bb.png",
     technologies: ["Java", "Spring", "React", "Angular", "SQL"],
   },
 ];

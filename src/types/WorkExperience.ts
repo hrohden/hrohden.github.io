@@ -4,5 +4,6 @@ export type WorkExperience = {
   title: string;
   period: string;
   description: string[];
+  logo: string;
   technologies: string[];
 };

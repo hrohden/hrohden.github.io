@@ -7,14 +7,23 @@ const WorkExperienceComponent = ({
 }) => {
   return (
     <div>
-      <p className="tracking-tight">{workExperience.company}</p>
-      <p className="">{workExperience.title}</p>
+      <div className="flex gap-2">
+        <div className="min-w-fit">
+          <img
+            src={`src/assets/logos/${workExperience.logo}`}
+            alt=""
+            className="rounded-md aspect-square w-12"
+          />
+        </div>
+        <div>
+          <p className="">{workExperience.company}</p>
+          <p className="">{workExperience.title}</p>
+          <p>{workExperience.period}</p>
+        </div>
+      </div>
       {workExperience.companyDescription && (
-        <p className="text-sm tracking-tight">
-          {workExperience.companyDescription}
-        </p>
+        <p className="">{workExperience.companyDescription}</p>
       )}
-      <p>{workExperience.period}</p>
       <ul className="list-disc ml-4">
         {workExperience.description.map((description) => (
           <li key={description}>{description}</li>
