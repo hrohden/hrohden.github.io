@@ -13,15 +13,15 @@ const WorkExperienceComponent = ({
           <img
             src={`src/assets/logos/${workExperience.logo}`}
             alt=""
-            className="rounded-md aspect-square w-14"
+            className="aspect-square w-14 rounded-md"
           />
         </div>
         <div>
-          <p className="text-xs uppercase font-semibold">
+          <p className="text-xs font-semibold uppercase">
             {workExperience.company}
           </p>
           <p className="text-lg font-semibold">{workExperience.title}</p>
-          <p className="text-xs flex items-baseline gap-1">
+          <p className="flex items-baseline gap-1 text-xs">
             <AiOutlineCalendar />
             {workExperience.period}
           </p>
@@ -30,7 +30,7 @@ const WorkExperienceComponent = ({
       {workExperience.companyDescription && (
         <p className="text-xs italic">{workExperience.companyDescription}</p>
       )}
-      <ul className="list-disc ml-4">
+      <ul className="ml-4 list-disc">
         {workExperience.description.map((description) => (
           <li key={description} className="text-sm">
             {description}

@@ -5,24 +5,24 @@ import SocialMediaButton from "../components/SocialMediaButton";
 
 const Intro = () => {
   return (
-    <section className="py-8 grid grid-cols-4 gap-2">
+    <section className="grid grid-cols-4 gap-2 py-8">
       <div className="col-span-3">
-        <div className="flex flex-col gap-1 w-3/4">
+        <div className="flex w-3/4 flex-col gap-1">
           <p className="text-base font-semibold leading-7 tracking-tight">
             Full stack developer
           </p>
           <h1 className="text-2xl font-extrabold tracking-tighter sm:text-5xl sm:leading-[3.5rem]">
             Hello! I'm Henrique
           </h1>
-          <h2 className="text-lg font-thin tracking-tighter mb-2">
+          <h2 className="mb-2 text-lg font-thin tracking-tighter">
             Welcome to my portfolio! 🚀
           </h2>
         </div>
       </div>
       <div>
-        <img src={me} className="w-full rounded-lg rotate-6" />
+        <img src={me} className="w-full rotate-6 rounded-lg" />
       </div>
-      <ul className="list-none flex gap-2">
+      <ul className="flex list-none gap-2">
         <li>
           <SocialMediaButton
             url={"https://www.linkedin.com/in/henriquerohden"}

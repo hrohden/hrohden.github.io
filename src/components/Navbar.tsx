@@ -7,28 +7,28 @@ import { IoMail } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <nav className="py-2 border-b-2 border-black">
-      <ul className="list-none flex tracking-tight gap-2 justify-between md:justify-evenly text-sm font-semibold">
+    <nav className="border-b-2 border-black py-2">
+      <ul className="flex list-none justify-between gap-2 text-sm font-semibold tracking-tight md:justify-evenly">
         <li className="text-center">
-          <a href="#" className="flex gap-1 items-center">
+          <a href="#" className="flex items-center gap-1">
             <BsInfoCircleFill />
             About
           </a>
         </li>
         <li className="text-center">
-          <a href="#" className="flex gap-1 items-center">
+          <a href="#" className="flex items-center gap-1">
             <BsFillBriefcaseFill />
             Experience
           </a>
         </li>
         <li className="text-center">
-          <a href="#" className="flex gap-1 items-center">
+          <a href="#" className="flex items-center gap-1">
             <IoMail />
             Contact
           </a>
         </li>
         <li className="text-center">
-          <a href="#" className="flex gap-1 items-center">
+          <a href="#" className="flex items-center gap-1">
             <BsCloudDownloadFill />
             Resumé PDF
           </a>
