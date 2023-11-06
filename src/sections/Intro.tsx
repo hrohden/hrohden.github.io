@@ -5,7 +5,7 @@ import SocialMediaButton from "../components/SocialMediaButton";
 
 const Intro = () => {
   return (
-    <section className="py-16 grid grid-cols-4 gap-2">
+    <section className="py-8 grid grid-cols-4 gap-2">
       <div className="col-span-3">
         <div className="flex flex-col gap-1 w-3/4">
           <p className="text-base font-semibold leading-7 tracking-tight">
