@@ -1,36 +1,22 @@
-import {
-  BsCloudDownloadFill,
-  BsFillBriefcaseFill,
-  BsInfoCircleFill,
-} from "react-icons/bs";
-import { IoMail } from "react-icons/io5";
+import { BsCloudDownload } from "react-icons/bs";
 
 const Navbar = () => {
   return (
-    <nav className="border-b-2 border-black py-2">
-      <ul className="flex list-none justify-between gap-2 text-sm font-semibold tracking-tight md:justify-evenly">
-        <li className="text-center">
-          <a href="#" className="flex items-center gap-1">
-            <BsInfoCircleFill />
-            About
-          </a>
+    <nav className="py-2">
+      <ul className="flex list-none items-center justify-end gap-4">
+        <li>
+          <a href="#">About</a>
         </li>
-        <li className="text-center">
-          <a href="#" className="flex items-center gap-1">
-            <BsFillBriefcaseFill />
-            Experience
-          </a>
+        <li>
+          <a href="#">Experience</a>
         </li>
-        <li className="text-center">
-          <a href="#" className="flex items-center gap-1">
-            <IoMail />
-            Contact
-          </a>
-        </li>
-        <li className="text-center">
-          <a href="#" className="flex items-center gap-1">
-            <BsCloudDownloadFill />
-            Resumé PDF
+        <li>
+          <a
+            href="#"
+            className="flex flex-row items-center gap-2 rounded-md bg-gradient-to-b from-sky-500 to-blue-600 px-3 py-2 font-semibold text-white shadow"
+          >
+            <BsCloudDownload />
+            Resumé
           </a>
         </li>
       </ul>

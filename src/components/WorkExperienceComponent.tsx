@@ -13,26 +13,30 @@ const WorkExperienceComponent = ({
           <img
             src={`src/assets/logos/${workExperience.logo}`}
             alt=""
-            className="aspect-square w-14 rounded-md"
+            className="aspect-square w-14 rounded-md md:w-16"
           />
         </div>
         <div>
-          <p className="text-xs font-semibold uppercase">
+          <p className="text-xs font-semibold uppercase text-sky-500 md:text-sm">
             {workExperience.company}
           </p>
-          <p className="text-lg font-semibold">{workExperience.title}</p>
-          <p className="flex items-baseline gap-1 text-xs">
+          <p className="text-lg font-semibold text-slate-700 md:text-xl">
+            {workExperience.title}
+          </p>
+          <p className="flex items-baseline gap-1 text-xs text-slate-500 md:text-sm">
             <AiOutlineCalendar />
             {workExperience.period}
           </p>
         </div>
       </div>
       {workExperience.companyDescription && (
-        <p className="text-xs italic">{workExperience.companyDescription}</p>
+        <p className="text-xs italic text-slate-700 md:text-sm">
+          {workExperience.companyDescription}
+        </p>
       )}
-      <ul className="ml-4 list-disc">
+      <ul className="ml-4 flex list-disc flex-col gap-2">
         {workExperience.description.map((description) => (
-          <li key={description} className="text-sm">
+          <li key={description} className="text-sm text-slate-700 md:text-base">
             {description}
           </li>
         ))}
@@ -41,7 +45,7 @@ const WorkExperienceComponent = ({
         {workExperience.technologies.map((tech) => (
           <span
             key={tech}
-            className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+            className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10 md:text-sm"
           >
             {tech}
           </span>
