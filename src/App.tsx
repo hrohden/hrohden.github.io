@@ -1,16 +1,26 @@
 function App() {
   return (
-    <main className="flex p-4 h-screen">
-      <div className="flex-col m-auto flex gap-8">
-        <h1 className="font-serif text-6xl text-center">
-          Hello! I'm Henrique Rohden!
-        </h1>
-        <h2 className="font-serif text-4xl text-center">
-          I'm a Fullstack Developer.
-        </h2>
-        <h2 className="font-serif text-4xl text-center">
-          (and this is my personal page)
-        </h2>
+    <main>
+      <section className="bg-gray-900 pb-6 pt-6">
+        <div className="max-w-7xl flex mx-auto justify-evenly">
+          <div className="flex justify-end flex-col gap-6">
+            <h1 className="text-white text-6xl font-bold tracking-tight">
+              Hello! I'm Henrique
+            </h1>
+            <p className="text-white text-2xl tracking-tight">
+              (it's pronounced <span className="text-gray-400">/ẽ'ʁiki/</span>{" "}
+              and has no diacritics)
+            </p>
+            <h2 className="text-white text-4xl tracking-tight">
+              I'm a Full Stack Developer.
+            </h2>
+          </div>
+          <div>
+            <img src="https://placehold.co/200" alt="" />
+          </div>
+        </div>
+      </section>
+      {/* <div className="flex-col m-auto flex gap-8">\
         <div className="text-center">
           <a
             href="https://www.linkedin.com/in/henriquerohden/?locale=en_US"
@@ -27,9 +37,9 @@ function App() {
             GitHub
           </a>
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }
 
-export default App
+export default App;
