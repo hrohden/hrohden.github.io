@@ -11,7 +11,10 @@ const WorkExperienceComponent = ({
       <div className="flex gap-2">
         <div className="min-w-fit">
           <img
-            src={`src/assets/logos/${workExperience.logo}`}
+            src={
+              new URL(`../assets/logos/${workExperience.logo}`, import.meta.url)
+                .href
+            }
             alt=""
             className="aspect-square w-14 rounded-md md:w-16"
           />
