@@ -5,38 +5,46 @@ import SocialMediaButton from "../components/SocialMediaButton";
 
 const Intro = () => {
   return (
-    <section className="py-16 flex">
-      <div className="flex flex-col gap-4 w-3/4">
-        <p className="text-base font-semibold leading-7">
-          Full stack developer
-        </p>
-        <h1 className="text-3xl font-extrabold tracking-[-0.04em] sm:text-5xl sm:leading-[3.5rem]">
-          Hello! I'm Henrique
-        </h1>
-        <h2 className="text-2xl font-thin tracking-tighter">
-          Welcome to my portfolio! 🚀
-        </h2>
-        <div className="flex gap-2">
+    <section className="grid grid-cols-4 gap-2 py-8">
+      <div className="col-span-3">
+        <div className="flex w-3/4 flex-col gap-1">
+          <p className="text-base font-semibold leading-7 tracking-tight">
+            Full stack developer
+          </p>
+          <h1 className="text-2xl font-extrabold tracking-tighter sm:text-5xl sm:leading-[3.5rem]">
+            Hello! I'm Henrique
+          </h1>
+          <h2 className="mb-2 text-lg font-thin tracking-tighter">
+            Welcome to my portfolio! 🚀
+          </h2>
+        </div>
+      </div>
+      <div>
+        <img src={me} className="w-full rotate-6 rounded-lg" />
+      </div>
+      <ul className="flex list-none gap-2">
+        <li>
           <SocialMediaButton
             url={"https://www.linkedin.com/in/henriquerohden"}
             icon={<FaLinkedin />}
             text="LinkedIn"
           />
+        </li>
+        <li>
           <SocialMediaButton
             text="GitHub"
             icon={<FaGithub />}
             url={"https://www.github.com/hrohden"}
           />
+        </li>
+        <li>
           <SocialMediaButton
             url={"https://www.twitter.com/henriquerohden"}
             icon={<RiTwitterXFill />}
             text="Twitter"
           />
-        </div>
-      </div>
-      <div className="w-1/4">
-        <img src={me} className="object-cover rounded-lg rotate-6" />
-      </div>
+        </li>
+      </ul>
     </section>
   );
 };

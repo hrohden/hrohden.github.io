@@ -1,3 +1,4 @@
+import { AiOutlineCalendar } from "react-icons/ai";
 import { WorkExperience } from "../types/WorkExperience";
 
 const WorkExperienceComponent = ({
@@ -6,20 +7,34 @@ const WorkExperienceComponent = ({
   workExperience: WorkExperience;
 }) => {
   return (
-    <div>
-      <p className="text-xl tracking-tight font-semibold">
-        {workExperience.title}
-      </p>
-      <p className="tracking-tight">{workExperience.company}</p>
+    <div className="flex flex-col gap-3">
+      <div className="flex gap-2">
+        <div className="min-w-fit">
+          <img
+            src={`src/assets/logos/${workExperience.logo}`}
+            alt=""
+            className="aspect-square w-14 rounded-md"
+          />
+        </div>
+        <div>
+          <p className="text-xs font-semibold uppercase">
+            {workExperience.company}
+          </p>
+          <p className="text-lg font-semibold">{workExperience.title}</p>
+          <p className="flex items-baseline gap-1 text-xs">
+            <AiOutlineCalendar />
+            {workExperience.period}
+          </p>
+        </div>
+      </div>
       {workExperience.companyDescription && (
-        <p className="text-sm tracking-tight">
-          {workExperience.companyDescription}
-        </p>
+        <p className="text-xs italic">{workExperience.companyDescription}</p>
       )}
-      <p>{workExperience.period}</p>
-      <ul className="list-disc ml-4">
+      <ul className="ml-4 list-disc">
         {workExperience.description.map((description) => (
-          <li key={description}>{description}</li>
+          <li key={description} className="text-sm">
+            {description}
+          </li>
         ))}
       </ul>
       <div className="flex gap-2">

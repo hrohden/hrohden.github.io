@@ -1,8 +1,10 @@
+import Section from "../components/Section";
+
 const Contact = () => {
   return (
-    <section className="py-12">
-      <h2 className="text-4xl font-semibold tracking-tight">Contact</h2>
-    </section>
+    <Section title="Contact">
+      <p>Contact...</p>
+    </Section>
   );
 };
 export default Contact;
