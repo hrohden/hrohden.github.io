@@ -1,43 +1,85 @@
 function App() {
   return (
-    <main>
-      <section className="bg-gray-900 pb-6 pt-6">
-        <div className="max-w-7xl flex mx-auto justify-evenly">
-          <div className="flex justify-end flex-col gap-6">
-            <h1 className="text-white text-6xl font-bold tracking-tight">
+    <main className="container mx-auto">
+      <nav className="flex justify-center py-6 border-b-2 border-slate-200">
+        <ul className="list-none flex gap-16">
+          <li className="text-center">
+            <a href="#" className="font-semibold text-sm">
+              About
+            </a>
+          </li>
+          <li className="text-center">
+            <a href="#" className="font-semibold text-sm">
+              Work experience
+            </a>
+          </li>
+          <li className="text-center">
+            <a href="#" className="font-semibold text-sm">
+              Contact
+            </a>
+          </li>
+          <li className="text-center">
+            <a href="#" className="font-semibold text-sm">
+              Resumé
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <section className="py-16">
+        <div className="flex flex-col gap-4">
+          <p className="text-base font-semibold leading-7 text-rose-600">
+            Full stack developer
+          </p>
+          <p>
+            <h1 className="text-3xl font-extrabold tracking-[-0.04em] text-black sm:text-5xl sm:leading-[3.5rem]">
               Hello! I'm Henrique
             </h1>
-            <p className="text-white text-2xl tracking-tight">
-              (it's pronounced <span className="text-gray-400">/ẽ'ʁiki/</span>{" "}
-              and has no diacritics)
-            </p>
-            <h2 className="text-white text-4xl tracking-tight">
-              I'm a Full Stack Developer.
+          </p>
+          <p>
+            <h2 className="text-2xl font-thin tracking-tighter text-slate-500">
+              Welcome to my portfolio! 🚀
             </h2>
-          </div>
-          <div>
-            <img src="https://placehold.co/200" alt="" />
-          </div>
+          </p>
         </div>
       </section>
-      {/* <div className="flex-col m-auto flex gap-8">\
-        <div className="text-center">
-          <a
-            href="https://www.linkedin.com/in/henriquerohden/?locale=en_US"
-            target="_blank"
-            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="https://github.com/hrohden"
-            target="_blank"
-            className="bg-gray-200 hover:bg-gray-300 font-bold py-2 px-4 rounded ml-2"
-          >
-            GitHub
-          </a>
+      <section className="py-12 flex flex-col gap-6">
+        <h2 className="text-4xl font-semibold tracking-tight">About</h2>
+        <p className="text-xl text-slate-500">
+          With expertise in both frontend and backend development, I have
+          consistently leveraged my technical skills to create efficient,
+          secure, and user-friendly applications. Equipped with strong corporate
+          experience working for several years in large and middle-size
+          financial companies, I have acquired the necessary skills to plan,
+          develop, and maintain web applications.
+        </p>
+      </section>
+      <section className="py-12">
+        <h2 className="text-4xl font-semibold tracking-tight">
+          Work experience
+        </h2>
+        <div>
+          <h3>Full Stack Engineer, Acorns (July 2022 - September 2023)</h3>
+          <ul>
+            <li>
+              Developed comprehensive admin reports to analyze and track the
+              performance of financial products, providing valuable insights to
+              stakeholders and enabling data-driven decision-making for
+              strategic planning, risk assessment, and business growth
+              initiatives.
+            </li>
+            <li>
+              Implemented highly efficient GitHub Action configurations to
+              streamline and automate the version release process for multiple
+              applications, resulting in considerable time and effort savings
+              for the team.
+            </li>
+            <li>Technologies employed: AWS, SQL, Databricks, Java, React</li>
+          </ul>
         </div>
-      </div> */}
+      </section>
+      <section className="py-12 bg-slate-400">
+        <h2 className="text-4xl font-semibold tracking-tight">Contact</h2>
+      </section>
     </main>
   );
 }
