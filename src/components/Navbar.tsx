@@ -2,8 +2,8 @@ import { BsCloudDownload } from "react-icons/bs";
 
 const Navbar = () => {
   return (
-    <nav className="py-2">
-      <ul className="flex list-none items-center justify-end gap-4">
+    <nav className="bg-slate-100 px-3 py-2 md:flex md:justify-center md:px-0">
+      <ul className="flex list-none items-center justify-end gap-4 lg:w-3/5">
         <li>
           <a href="#">About</a>
         </li>

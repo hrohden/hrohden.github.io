@@ -6,13 +6,15 @@ import WorkExperienceSection from "./sections/WorkExperienceSection";
 
 function App() {
   return (
-    <main className="container mx-auto xl:w-3/5">
+    <>
       <Navbar />
-      <Intro />
-      <About />
-      <WorkExperienceSection />
-      <Contact />
-    </main>
+      <main className="container mx-auto lg:w-3/5">
+        <Intro />
+        <About />
+        <WorkExperienceSection />
+        <Contact />
+      </main>
+    </>
   );
 }
 
