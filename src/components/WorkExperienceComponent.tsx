@@ -51,7 +51,7 @@ const WorkExperienceComponent = ({
         {workExperience.technologies.map((tech) => (
           <span
             key={tech}
-            className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10 dark:bg-gray-900 dark:text-gray-300 dark:ring-gray-600 md:text-sm"
+            className="inline-flex items-center rounded-full bg-gray-50 px-4 py-1 text-xs font-medium text-gray-600 shadow-sm ring-1 ring-inset ring-gray-500/10 dark:bg-gray-900 dark:text-gray-300 dark:ring-gray-600 md:text-sm"
           >
             {tech}
           </span>
