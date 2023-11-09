@@ -8,7 +8,7 @@ const WorkExperienceComponent = ({
 }) => {
   return (
     <div className="flex flex-col gap-3">
-      <div className="flex gap-2">
+      <div className="flex gap-3">
         <div className="min-w-fit">
           <img
             src={
@@ -20,7 +20,7 @@ const WorkExperienceComponent = ({
           />
         </div>
         <div>
-          <p className="text-xs font-semibold uppercase text-sky-500 md:text-sm">
+          <p className="text-xs font-semibold uppercase text-slate-600 md:text-sm">
             {workExperience.company}
           </p>
           <p className="text-lg font-semibold text-slate-700 md:text-xl">
