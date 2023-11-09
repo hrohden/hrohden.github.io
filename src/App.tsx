@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
-import Intro from "./sections/Intro";
+import Hero from "./sections/Hero";
 import WorkExperienceSection from "./sections/WorkExperienceSection";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar />
       <main className="container mx-auto lg:w-3/5">
-        <Intro />
+        <Hero />
         <About />
         <WorkExperienceSection />
         <Contact />

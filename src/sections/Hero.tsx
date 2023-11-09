@@ -3,7 +3,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 import me from "../assets/me.jpg";
 import SocialMediaButton from "../components/SocialMediaButton";
 
-const Intro = () => {
+const Hero = () => {
   return (
     <section className="grid grid-cols-4 gap-2 py-8">
       <div className="col-span-3 flex flex-row items-center">
@@ -48,4 +48,4 @@ const Intro = () => {
     </section>
   );
 };
-export default Intro;
+export default Hero;
