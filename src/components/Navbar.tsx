@@ -1,23 +1,28 @@
-import { BsCloudDownload } from "react-icons/bs";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
+import SocialMediaButton from "./SocialMediaButton";
 
 const Navbar = () => {
   return (
-    <nav className="bg-slate-100 px-3 py-2 md:flex md:justify-center md:px-0">
-      <ul className="flex list-none items-center justify-end gap-4 lg:w-3/5">
+    <nav className="flex justify-center bg-slate-100 px-3 py-2 md:px-0">
+      <ul className="flex list-none items-center justify-center gap-4 lg:w-3/5">
         <li>
-          <a href="#">About</a>
+          <SocialMediaButton
+            url={"https://www.linkedin.com/in/henriquerohden"}
+            icon={<FaLinkedin />}
+          />
         </li>
         <li>
-          <a href="#">Experience</a>
+          <SocialMediaButton
+            url={"https://www.github.com/hrohden"}
+            icon={<FaGithub />}
+          />
         </li>
         <li>
-          <a
-            href="#"
-            className="flex flex-row items-center gap-2 rounded-md bg-gradient-to-b from-sky-500 to-blue-600 px-3 py-2 font-semibold text-white shadow"
-          >
-            <BsCloudDownload />
-            Resumé
-          </a>
+          <SocialMediaButton
+            url={"https://www.twitter.com/henriquerohden"}
+            icon={<RiTwitterXFill />}
+          />
         </li>
       </ul>
     </nav>
