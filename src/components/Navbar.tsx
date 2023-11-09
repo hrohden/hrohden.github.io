@@ -9,18 +9,21 @@ const Navbar = () => {
         <li>
           <SocialMediaButton
             url={"https://www.linkedin.com/in/henriquerohden"}
+            text="LinkedIn profile"
             icon={<FaLinkedin />}
           />
         </li>
         <li>
           <SocialMediaButton
             url={"https://www.github.com/hrohden"}
+            text="GitHub account"
             icon={<FaGithub />}
           />
         </li>
         <li>
           <SocialMediaButton
             url={"https://www.twitter.com/henriquerohden"}
+            text="Twitter profile"
             icon={<RiTwitterXFill />}
           />
         </li>
