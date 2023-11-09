@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className="container mx-auto lg:w-3/5">
+      <main className="container mx-auto px-3 md:px-0 lg:w-3/5">
         <Hero />
         <WorkExperienceSection />
       </main>
