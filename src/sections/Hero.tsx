@@ -3,8 +3,6 @@ import { BsCloudDownload } from "react-icons/bs";
 const Hero = () => {
   return (
     <section className="flex flex-col gap-3 py-10">
-      {/* <div className="col-span-3 flex flex-row items-center"> */}
-      {/* <div className="flex w-3/4 flex-col gap-1"> */}
       <p className="text-center text-xl font-semibold text-slate-500">
         Full stack developer
       </p>
@@ -27,34 +25,6 @@ const Hero = () => {
           Resumé PDF
         </a>
       </p>
-      {/* </div> */}
-      {/* </div> */}
-      {/* <div>
-        <img src={me} className="w-full rounded-lg" />
-      </div>
-      <ul className="flex list-none gap-2">
-        <li>
-          <SocialMediaButton
-            url={"https://www.linkedin.com/in/henriquerohden"}
-            icon={<FaLinkedin />}
-            text="LinkedIn"
-          />
-        </li>
-        <li>
-          <SocialMediaButton
-            text="GitHub"
-            icon={<FaGithub />}
-            url={"https://www.github.com/hrohden"}
-          />
-        </li>
-        <li>
-          <SocialMediaButton
-            url={"https://www.twitter.com/henriquerohden"}
-            icon={<RiTwitterXFill />}
-            text="Twitter"
-          />
-        </li>
-      </ul> */}
     </section>
   );
 };
