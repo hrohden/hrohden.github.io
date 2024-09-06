@@ -22,7 +22,7 @@ const Navbar = () => {
         </li>
         <li>
           <SocialMediaButton
-            url={"https://www.twitter.com/henriquerohden"}
+            url={"https://www.x.com/henriquerohden"}
             text="Twitter profile"
             icon={<RiTwitterXFill />}
           />
