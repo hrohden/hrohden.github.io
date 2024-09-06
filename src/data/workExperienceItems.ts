@@ -2,6 +2,16 @@ import { WorkExperience } from "../types/WorkExperience";
 
 export const workExperienceItems: WorkExperience[] = [
   {
+    company: "Rakuten Rewards",
+    title: "Java Developer",
+    period: "November 2023 - March 2024",
+    description: [
+      "Reduced the operational costs by rearchitecting an admin dashboard. Using a connection with a microservices architecture, I’ve moved the functions of managing customers out from a legacy database."
+    ],
+    logo: "rakuten.png",
+    technologies: ["Java", "Spring", "GitHub Actions", "Jenkins", "unit and integration tests"],
+  },
+  {
     company: "Acorns",
     title: "Full Stack Engineer",
     period: "July 2022 - September 2023",
