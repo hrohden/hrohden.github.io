@@ -9,7 +9,7 @@ export const workExperienceItems: WorkExperience[] = [
       "Reduced the operational costs by rearchitecting an admin dashboard. Using a connection with a microservices architecture, I’ve moved the functions of managing customers out from a legacy database."
     ],
     logo: "rakuten.png",
-    technologies: ["Java", "Spring", "GitHub Actions", "Jenkins", "unit and integration tests"],
+    technologies: ["Java", "Spring", "Jenkins", "GitHub Actions", "unit and integration tests"],
   },
   {
     company: "Acorns",
