@@ -40,10 +40,10 @@ const WorkExperienceComponent = ({
       <ul className="ml-4 flex list-disc flex-col gap-2">
         {workExperience.description.map((description) => (
           <li
-            key={description}
-            className="text-sm text-slate-700 dark:text-slate-300 md:text-base"
+            key={description.id}
+            className={description.highlight ? "text-sm text-slate-700 dark:text-slate-300 md:text-base font-semibold" : "text-sm text-slate-700 dark:text-slate-300 md:text-base"}
           >
-            {description}
+            {description.text}
           </li>
         ))}
       </ul>

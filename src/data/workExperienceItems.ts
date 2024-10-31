@@ -6,7 +6,7 @@ export const workExperienceItems: WorkExperience[] = [
     title: "Java Developer",
     period: "November 2023 - March 2024",
     description: [
-      "Reduced the operational costs by rearchitecting an admin dashboard. Using a connection with a microservices architecture, I’ve moved the functions of managing customers out from a legacy database."
+      {id: 1, text: "Reduced the operational costs by rearchitecting an admin dashboard. Using a connection with a microservices architecture, I’ve moved the functions of managing customers out from a legacy database."}
     ],
     logo: "rakuten.png",
     technologies: ["Java", "Spring", "Jenkins", "GitHub Actions", "unit and integration tests"],
@@ -16,8 +16,8 @@ export const workExperienceItems: WorkExperience[] = [
     title: "Full Stack Engineer",
     period: "July 2022 - September 2023",
     description: [
-      "Implemented GitHub Action configurations to streamline and automate the version release process for multiple applications, resulting in time and effort savings for the team.",
-      "Developed comprehensive admin reports to analyze and track the performance of financial products, providing insights to stakeholders.",
+      {id: 2, text: "Implemented GitHub Action configurations to streamline and automate the version release process for multiple applications, resulting in time and effort savings for the team.", highlight: true},
+      {id: 3, text: "Developed comprehensive admin reports to analyze and track the performance of financial products, providing insights to stakeholders."},
     ],
     logo: "acorns.png",
     technologies: ["Databricks", "Apache Airflow", "Python", "AWS", "SQL"],
@@ -27,8 +27,8 @@ export const workExperienceItems: WorkExperience[] = [
     title: "Full Stack Engineer",
     period: "January 2022 - July 2022",
     description: [
-      "Provided backend application support and maintenance, ensuring systems uninterrupted operation.",
-      "Developed and maintained mobile applications using React Native.",
+      {id: 4, text: "Provided backend application support and maintenance, ensuring systems uninterrupted operation."},
+      {id: 5, text: "Developed and maintained mobile applications using React Native."},
     ],
     logo: "brigit.png",
     technologies: ["Java", "Spring Boot", "React", "SQL"],
@@ -40,8 +40,8 @@ export const workExperienceItems: WorkExperience[] = [
     title: "Senior Java developer",
     period: "July 2021 - November 2021",
     description: [
-      "Suggested to the team and created the first version of an admin dashboard that consolidates information about the customers (profile info, current investments and loans, and credit score).",
-      "Developed and maintained web applications using React, Java, Spring, and Postgres",
+      {id: 6, text: "Suggested to the team and created the first version of an admin dashboard that consolidates information about the customers (profile info, current investments and loans, and credit score).", highlight: true},
+      {id: 7, text: "Developed and maintained web applications using React, Java, Spring, and Postgres"},
     ],
     logo: "cooperforte.png",
     technologies: ["Java", "Spring Framework", "React", "SQL", "Postgres"],
@@ -53,8 +53,8 @@ export const workExperienceItems: WorkExperience[] = [
     title: "Senior developer",
     period: "August 2020 - July 2021",
     description: [
-      "Helped the maintenance of a legacy frontend application build with Angular",
-      "Developed and maintained web applications for banking corporations, with React, Java, and SQL",
+      {id: 8, text: "Helped the maintenance of a legacy frontend application build with Angular"},
+      {id: 9, text: "Developed and maintained web applications for banking corporations, with React, Java, and SQL"},
     ],
     logo: "stefanini.png",
     technologies: ["Java", "Angular", "SQL"],
@@ -66,8 +66,8 @@ export const workExperienceItems: WorkExperience[] = [
     title: "Senior Java developer",
     period: "December 2019 - August 2020",
     description: [
-      "Performed a migration of binary objects stored in database to files saved in an AWS S3 Bucket. This action eliminated shutdown risks (as the binary objects were exposed as byte streams in the API response) and reduced cloud costs",
-      "Developed and maintained web applications for governmental departments, using Java (Spring), React, Jenkins, Docker, SQL",
+      {id: 10, text: "Performed a migration of binary objects stored in database to files saved in an AWS S3 Bucket. This action eliminated shutdown risks (as the binary objects were exposed as byte streams in the API response) and reduced cloud costs", highlight: true},
+      {id: 11, text: "Developed and maintained web applications for governmental departments, using Java (Spring), React, Jenkins, Docker, SQL"},
     ],
     logo: "basis.png",
     technologies: ["Java", "Spring", "Jenkins", "OpenShift", "Docker", "Angular", "SQL"],
@@ -79,9 +79,9 @@ export const workExperienceItems: WorkExperience[] = [
     title: "Software Developer",
     period: "February 2011 - September 2019",
     description: [
-      "Developed an internal web application with fast-updating information about financial products (interest rate, credit limit ranges, among others). The contents were updated by the head office and immediately available to the bank branches nationwide.",
-      "That application was built using Java, Spring, and Hibernate, and resulted in +2,500 daily hits, one of the most popular applications in the company’s intranet",
-      "Responsible for managing databases and developing internal performance reports of financial products.",
+      {id: 12, text: "Developed an internal web application with fast-updating information about financial products (interest rate, credit limit ranges, among others). The contents were updated by the head office and immediately available to the bank branches nationwide.", highlight: true},
+      {id: 13, text: "That application was built using Java, Spring, and Hibernate, and resulted in +2,500 daily hits, one of the most popular applications in the company’s intranet"},
+      {id: 14, text: "Responsible for managing databases and developing internal performance reports of financial products."},
     ],
     logo: "bb.png",
     technologies: ["Java", "Spring", "React", "Angular", "SQL"],
