@@ -10,9 +10,7 @@ const Hero = () => {
         Hello! I'm Henrique
       </h1>
       <p className="mb-6 text-center text-xl text-slate-800 dark:text-slate-200">
-        With experience in frontend and backend development, I have consistently
-        leveraged my technical skills to create efficient, secure, and
-        user-friendly applications.
+        Software Engineer with over 10 years of experience in full stack web development. Skills include Java, Python, Typescript, React, and databases. Domain expert in finances and payments field as the result of working at several commercial bank companies and fintech startups.
       </p>
       <HeroActionButton />
     </section>
